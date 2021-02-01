@@ -303,13 +303,7 @@
                                 <h2><em>Thanks</em> for contacting us!
                                   We will get back to you soon!</h2>
                               </div>
-                            <!-- <p class="thanks" style="display: none;">Thanks for submitting</p> -->
-                            <!-- <div style="display:none" class="thankyou_message">
-                                 You can customize the thankyou message by editing the code below 
-                                <h2><em>Thanks</em> for contacting us! We will get back to you soon!
-                                </h2>
-                               </div> -->
-                               
+                           
                     </form>
                 </div>
             </div>
@@ -336,12 +330,13 @@
         </div>
         <div class="footer-div ">
             <h4 class="footer-heads">Subscribe Newsletter for awesome<br> Kitchen Hacks!</h4>
-            <form class="footer-form" method="post" action="https://script.google.com/macros/s/AKfycbw50OcPBw0N9x3A9t66W_xCnYqWBTezuQTAQ5Y4Ew/exec">
+            <form class="gform pure-form pure-form-stacked footer-form" data-email="example@email.net" method="post" action="https://script.google.com/macros/s/AKfycbw50OcPBw0N9x3A9t66W_xCnYqWBTezuQTAQ5Y4Ew/exec">
                 <input class="input-email" name="subscribe-email" type="text" placeholder="Enter your Email...">
                 <input class="input-submit"onclick="subscribe()" type="submit" value="Subscribe">
             </form>
+      
         </div>
-
+        
     </footer>
     <footer class="footer-2">
         <div class="footer-divider"></div>
@@ -488,9 +483,9 @@
   }
 })();
 
-        // function subscribe(){
-        //     alert("Thanks for subscribing!");
-        // }
+        function subscribe(){
+            alert("Thanks for subscribing!");
+        }
 
         // function formSubmit(){
         //     // const button=document.querySelector('.button');
